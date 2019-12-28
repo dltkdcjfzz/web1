@@ -19,5 +19,27 @@
   구조화된 HTML은 HTML 태그를 본연의 용도에 맞게 사용하는 것이다. 예를 들어 최상위 제목을 뜻하는 그는 문서의 제목 수준으로 쓰이며, 본문 문단은  태그로 나눈다. 이렇게 하면 디자인적 요소가 대부분 배제되기 때문에 HTML을 알아보기 훨씬 쉽다. 여기서 '알아보기 쉽다'에는 사람(프로그래머)뿐만 아니라 기계(웹 브라우저)역시 포함된다. 기계가 이해하기 쉬운 HTML은 다양한 포맷으로 출력 형식을 바꾸기 용이하고(CSS파일을 모바일용, PC용 등으로 각자 준비해 교체하는 방식으로 적용한다), 문서의 해독(파싱)속도가 빨라지며 동적인 기능을 구현하기가 더 쉬워진다. 그리고 대부분의 경우 구조화된 HTML이 과거의 비구조화 HTML보다 문서 크기가 상대적으로 작다.
 
   이렇게 하면 디자인에 필요한 부분은 CSS가 전담하기 때문에 웹디자이너와 웹프로그래머 간의 협업이 훨씬 용이해진다.
+  <p>
+  <div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://web-1-ho73ceqbq0.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</p>
 </body>
 </html>
